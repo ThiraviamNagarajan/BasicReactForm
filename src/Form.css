@@ -1,0 +1,249 @@
+
+input {
+  background-color: #fafafa;
+}
+.formelements {
+  /* margin: 5px; */
+  display: flex;
+  flex-direction: column;
+}
+.main_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  outline: none !important;
+  border: none !important;
+}
+
+.main_info input,
+.main_info .mailelements {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: #fafafa;
+  width: 100%;
+}
+.formelements label {
+  text-align: start;
+}
+.mobileElements {
+  display: flex;
+  justify-content: space-between;
+}
+.mobileElements input {
+  width: 100%;
+}
+.mobileElements span {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+.skills .skilllist {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.gender {
+  display: flex;
+  flex-direction: column;
+}
+.gender .genderlist {
+  margin-top: 5px;
+  text-align: start;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cardbox {
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.card {
+  width: 300px;
+  min-width: 200px;
+  height: max-content;
+  background-color: #e8f1f0;
+  color: black;
+  margin: 10px;
+  border-radius: 10px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-button{
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  
+}
+
+.card .card-button button {
+  background-color: darkolivegreen;
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 10px 25px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.card .card-img{
+  width: 100%;
+  background-color: #65a8f9;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 150px;
+  position: relative;
+}
+
+.card .card-img img {
+  align-items: start;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid  #e8f1f0;
+}
+
+.card .card-img span {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  border: 4px solid  #65a8f9;
+  position: absolute;
+  top: 55px;
+  left: 90px;
+}
+
+.card-body{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-file {
+  border: none !important;
+}
+.alert-box
+{
+  background-color: rgb(248, 248, 248);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 10px;
+  transition: .5s ease;  
+}
+
+.alert-box.active{
+  top: 15%;
+}
+
+.alert-box button{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.alert-box .close-btn{
+  position: absolute;
+  font-size: 20px;
+  top:10px;
+  right:10px;
+  cursor: pointer;
+}
+
+.alert-box .button-group
+{
+  display: flex;
+  justify-content: end;
+  gap: .7rem;
+}
+.alert-box .button-group button
+{
+  padding: 5px 12px;
+  background-color:blue;
+  cursor: pointer;
+  border-radius:10px;
+  color: white;
+}
+.tableElements
+{
+  margin-top: 20px;
+}
+.tableElements table
+{
+  width: 100%;
+  border-radius: 5px;
+  font-family:"Poppins", sans-serif;
+  border-collapse: collapse;
+}
+.tableElements table th{
+  border:none;
+  background-color: #d8f0f2;
+  color:"#6a9596";
+  font-weight: 500;
+  padding: 15px;
+  Color:#317985;
+}
+.tableElements table td
+{
+  border:none;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px;
+}
+.tableElements table  td input{
+  border:none;
+  outline:none;
+  border-bottom: 1px solid gray;
+  background-color:#fafafa;
+  
+}
+table img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.tableElements table h2{
+  text-transform: uppercase;
+}
+.tableElements table button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color:#317985 ;
+  Color:#e1ffff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.tableElements table .delete-Button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color:#317985 ;
+  Color:#e1ffff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+
+
